@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+.app {
+    height: 100vh;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+.addTask {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem
+}
+
+.lists {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+
+.addTask input {
+    font-size: 1rem;
+    padding: 0.25rem 5rem 0.25rem 0.25rem;
+}
+
+.addTask button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.listItem {
+    display: flex;
+}
+
+.listItem p {
+    margin: 0;
+}
